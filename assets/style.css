@@ -50,3 +50,7 @@ h1{font-size:clamp(3rem,7vw,5.6rem)}h2{font-size:clamp(2.2rem,4vw,3.2rem)}h3{fon
 @media (max-width:420px){.shop-grid{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .brand-logo{width:auto;height:30px;max-width:none}
+.about{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:clamp(1.5rem,5vw,4rem);align-items:center}
+.about-photo{width:100%;height:auto;aspect-ratio:auto}
+.about-text{font:italic 1.35rem/1.5 var(--serif);color:var(--muted);margin-top:1rem}
+@media (max-width:680px){.about{grid-template-columns:1fr}.about-photo{max-width:320px}}
