@@ -2,7 +2,7 @@
 --serif:"Cormorant Garamond","Playfair Display",Georgia,"Times New Roman",serif;--sans:"Helvetica Neue",Arial,system-ui,sans-serif}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:72px}
 body{margin:0;background:var(--ivory);color:var(--ink);font:16px/1.65 var(--sans)}
-img{max-width:100%;display:block}a{color:inherit}
+img{max-width:100%;height:auto;display:block}a{color:inherit}
 .skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:#fff;padding:.5rem;z-index:99}
 .site-header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:.9rem clamp(1rem,4vw,3rem);background:rgba(247,242,234,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
 .brand{display:flex;gap:.6rem;align-items:center;text-decoration:none;font:500 1.5rem var(--serif);letter-spacing:.04em}
@@ -19,7 +19,7 @@ h1{font-size:clamp(3rem,7vw,5.6rem)}h2{font-size:clamp(2.2rem,4vw,3.2rem)}h3{fon
 .btn.ghost{background:transparent;color:var(--ink)}.btn:hover{background:var(--rose);border-color:var(--rose);color:#fff}
 .hero-art{margin:0}.hero-art figcaption,.card figcaption{font:italic 1rem var(--serif);color:var(--muted);margin-top:.75rem}
 .art-btn{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
-.hero-art img{width:100%;box-shadow:0 30px 60px -30px rgba(36,33,30,.45)}
+.hero-art img{width:100%;height:auto;object-fit:contain;box-shadow:0 30px 60px -30px rgba(36,33,30,.45)}
 .art-btn:focus-visible,.btn:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--rose);outline-offset:4px}
 .section{max-width:1240px;margin:0 auto;padding:clamp(3rem,7vw,6rem) clamp(1rem,4vw,3rem);border-top:1px solid var(--line)}
 .section-head{margin-bottom:2.5rem}.note{font-size:.85rem;color:var(--muted);margin:.6rem 0 0}
@@ -38,7 +38,7 @@ h1{font-size:clamp(3rem,7vw,5.6rem)}h2{font-size:clamp(2.2rem,4vw,3.2rem)}h3{fon
 .lightbox{position:fixed;inset:0;z-index:50;background:rgba(24,22,20,.94);display:flex;align-items:center;justify-content:center}
 .lightbox[hidden]{display:none}
 .lightbox figure{margin:0;max-width:86vw;text-align:center}
-.lightbox img{max-width:86vw;max-height:84vh;object-fit:contain;margin:auto}
+.lightbox img{width:auto;height:auto;max-width:86vw;max-height:84vh;object-fit:contain;margin:auto}
 .lightbox figcaption{color:#eee;font:italic 1.1rem var(--serif);margin-top:.8rem}
 .lightbox button{position:absolute;background:none;border:0;color:#fff;font-size:2.6rem;cursor:pointer;padding:.5rem 1rem;line-height:1}
 .lb-close{top:.5rem;right:.8rem}.lb-prev{left:.5rem}.lb-next{right:.5rem}
