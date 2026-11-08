@@ -10,3 +10,4 @@ Images in `assets/art/` are exact crops of the supplied phone screenshots (no re
 Portraits 01–04: crops of phone screenshots. Portrait 04 was trimmed ~165px on the right edge to exclude a phone-UI clock icon.
 Portrait 05 was photographed on an easel: cropped to the drawing with a thin paper margin and
 perspective-corrected with a four-point transform (no repainting/recolouring); signature preserved.
+Logo: pink lotus flower from the Lotus Acupuncture logo with the needles removed (alpha components only, petals unaltered).
