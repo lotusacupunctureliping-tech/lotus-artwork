@@ -57,7 +57,7 @@ h1{font-size:clamp(3rem,7vw,5.6rem)}h2{font-size:clamp(2.2rem,4vw,3.2rem)}h3{fon
 
 /* Green floral theme */
 body{background:#dcebdd;position:relative}
-body::before{content:"";position:fixed;inset:0;z-index:-1;background:#cfe5d2 url("green-floral-bg.jpg?v=0250e5e4ee") right center/cover no-repeat}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:#cfe5d2 url("green-lotus-bg.jpg?v=6337e808a8") right center/cover no-repeat}
 .hero,.section{background:rgba(251,253,251,.86);border:1px solid rgba(201,220,203,.8);border-radius:6px;margin:clamp(1.5rem,4vw,3rem) auto;width:calc(100% - 2*clamp(.75rem,4vw,3rem));box-shadow:0 10px 40px -20px rgba(31,42,34,.35)}
 .section{border-top:1px solid rgba(201,220,203,.8)}
 .site-footer{background:rgba(238,246,239,.9)}
